@@ -105,7 +105,10 @@ nav {
 /* jaulah */
 .jaulah {
     margin-top: -4.3%;
-    scroll-margin-top: 32rem;
+}
+
+#jaulah {
+    scroll-margin-top: 26.8rem;
 }
 
 .teks4 {
@@ -224,6 +227,42 @@ p.word {
     font-size: 20pt;
 }
 
+/* dataLPJ */
+#dataLPJ {
+    scroll-margin-top: 18rem;
+}
+
+/* dataNama */
+#dataNama {
+    scroll-margin-top: 35rem;
+}
+
+/* kebijakan */
+#kebijakan1 {
+    scroll-margin-top: 29rem;
+}
+
+#kebijakan2 {
+    scroll-margin-top: 9.5rem;
+}
+
+/* perencanaan */
+#perencanaan {
+    scroll-margin-top: 68rem;
+}
+
+/* pendataan */
+.pendataan .backber {
+    height: 5rem;
+}
+
+.pendataan .problem h3 {
+    margin-top: 5px;
+}
+
+#pendataan {
+    scroll-margin-top: 38rem;
+}
 
 /* footer */
 footer {

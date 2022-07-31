@@ -1,5 +1,15 @@
 @media (min-width: 800px) {
 
+    .backber {
+        background-color: wheat;
+        height: 4rem;
+    }
+    
+    .sub-judul h3 {
+        margin: 15px 0;
+        font-weight: bolder;
+    }
+
     /* navbar */
     .nav-link:hover {
         font-size: 20px;
@@ -33,6 +43,9 @@
     /* jaulah */
     .jaulah {
         margin-top: -2.2%;
+    }
+    
+    #jaulah {
         scroll-margin-top: 20rem;
     }
 
@@ -66,31 +79,31 @@
     }
 
     /* dataLPJ */
-    .dataLPJ {
+    #dataLPJ {
         scroll-margin-top: 20px;
     }
 
     /* data nama */
-    .dataNama {
+    #dataNama {
         scroll-margin-top: 18rem;
     }
 
     /* kebijakan */
-    .kebijakan {
+    #kebijakan {
         scroll-margin-top: 7.5rem;
     }
 
-    .kebijakan2 {
+    #kebijakan2 {
         scroll-margin-top: -3.7rem;
     }
 
     /* perencanaan */
-    .perencanaan {
+    #perencanaan {
         scroll-margin-top: 50rem;
     }
 
     /* pendataan */
-    .pendataan {
+    #pendataan {
         scroll-margin-top: 15.4rem;
     }
 }

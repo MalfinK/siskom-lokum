@@ -1,0 +1,96 @@
+@media (min-width: 800px) {
+
+    /* navbar */
+    .nav-link:hover {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    /* jumbotron */
+    .jumbotron {
+        color: rgb(214, 33, 217);
+        font-family: 'Pacifico', cursive;
+        min-height: 52rem;
+        margin-top: -10rem;
+        position: relative;
+    }
+
+    .jumbotron h1,
+    .jumbotron p {
+        font-size: 50pt;
+        margin-top: 20px;
+        text-shadow: 1px 1px 10px rgb(255, 222, 8);
+    }
+
+    .jumbotron img {
+        width: 15%;
+        margin-top: 11rem;
+        border: 1rem double rgb(114, 63, 197);
+        border-radius: 30px;
+        cursor: crosshair;
+    }
+
+    /* jaulah */
+    .jaulah {
+        margin-top: -2.2%;
+        scroll-margin-top: 20rem;
+    }
+
+    .link-penting {
+        padding-top: 5px;
+    }
+
+    .link-penting button {
+        width: 90%;
+        height: 3rem;
+        margin: 1rem auto 2rem;
+    }
+
+    .link-penting .card {
+        margin: 1rem auto 2rem;
+    }
+
+    .link-penting a {
+        color: #52734D;
+        font-size: 15pt;
+    }
+
+    .link-penting a:hover {
+        color: blueviolet;
+        transition: 1s ease-out;
+    }
+
+    .link-penting button:hover {
+        background-color: gold;
+        transition: .5s ease-in;
+    }
+
+    /* dataLPJ */
+    .dataLPJ {
+        scroll-margin-top: 20px;
+    }
+
+    /* data nama */
+    .dataNama {
+        scroll-margin-top: 18rem;
+    }
+
+    /* kebijakan */
+    .kebijakan {
+        scroll-margin-top: 7.5rem;
+    }
+
+    .kebijakan2 {
+        scroll-margin-top: -3.7rem;
+    }
+
+    /* perencanaan */
+    .perencanaan {
+        scroll-margin-top: 50rem;
+    }
+
+    /* pendataan */
+    .pendataan {
+        scroll-margin-top: 15.4rem;
+    }
+}

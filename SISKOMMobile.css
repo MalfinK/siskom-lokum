@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 1500px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 15pt;
+    background-color: #e699ff;
+    background-image:
+        radial-gradient(at 5% 38%, hsla(66, 91%, 68%, 1) 0px, transparent 50%),
+        radial-gradient(at 17% 89%, hsla(111, 94%, 73%, 1) 0px, transparent 50%),
+        radial-gradient(at 59% 83%, hsla(54, 85%, 70%, 1) 0px, transparent 50%),
+        radial-gradient(at 23% 68%, hsla(235, 67%, 61%, 1) 0px, transparent 50%),
+        radial-gradient(at 22% 34%, hsla(223, 86%, 60%, 1) 0px, transparent 50%),
+        radial-gradient(at 7% 88%, hsla(183, 97%, 71%, 1) 0px, transparent 50%),
+        radial-gradient(at 1% 92%, hsla(111, 68%, 77%, 1) 0px, transparent 50%);
+}
+
+hr {
+    width: 10%;
+    border-top: 3px solid rgb(68, 255, 0);
+}
+
+/* section {
+    min-height: 500px;
+}
+
+section.dataLPJ {
+    min-height: 200px;
+} */
+
+.bg-dark,
+.navbar-dark,
+.navbar-light {
+    transition: 1s ease;
+}
+
+/* navbar */
+nav {
+    padding-top: 5%;
+    font-family: 'Courier Prime', monospace;
+}
+
+.navbar-brand {
+    margin-left: 10%;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.navbar-nav {
+    margin-right: 10%;
+}
+
+.nav-link {
+    margin-right: 20px;
+    font-size: 13pt;
+}
+
+.nav-link:hover {
+    font-family: algerian;
+    background-color: rgba(0, 215, 255, 0.4);
+    border-radius: 30px;
+    color: #FFB72B !important;
+    font-size: 15px;
+    padding: 15px;
+    transition: .6s ease-in;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(foto/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #D8B53A;
+    overflow: hidden;
+    font-family: 'Pacifico', cursive;
+    min-height: 66rem;
+    margin-top: -24rem;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    font-size: 30pt;
+    margin-top: 20px;
+    text-shadow: 1px 1px 10px rgb(214, 255, 8);
+}
+
+.jumbotron img {
+    width: 20%;
+    margin-top: 30rem;
+    border: 10px dashed #75FD92;
+    border-radius: 30px;
+}
+
+/* jaulah */
+.jaulah {
+    margin-top: -4.3%;
+    scroll-margin-top: 32rem;
+}
+
+.teks4 {
+    font-weight: normal;
+    color: white;
+    text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #ff00de,
+        0 0 70px #ff00de,
+        0 0 80px #ff00de,
+        0 0 100px #ff00de,
+        0 0 150px #ff00de;
+    text-transform: uppercase;
+}
+
+.tulber {
+    background-image: url(./foto/bg2.jpg);
+    background-size: cover;
+    height: 10rem;
+}
+
+marquee.judul {
+    margin: 45px 0;
+}
+
+.backber {
+    background-color: wheat;
+    height: 4rem;
+}
+
+.sub-judul h3 {
+    margin: 15px 0;
+    font-weight: bolder;
+}
+
+.link-penting {
+    padding-top: 1.3rem;
+    font-weight: bolder;
+}
+
+.link-penting button {
+    background-color: paleturquoise;
+    border-radius: 20px;
+    margin: .5rem auto 1rem;
+    height: 4rem;
+    font-weight: 900;
+
+}
+
+.link-penting .card {
+    border-radius: 40px;
+}
+
+.link-penting .card:hover {
+    background-color: #f699ff;
+    background-image:
+        radial-gradient(at 3% 41%, hsla(156, 91%, 61%, 1) 0px, transparent 50%),
+        radial-gradient(at 95% 23%, hsla(218, 95%, 65%, 1) 0px, transparent 50%),
+        radial-gradient(at 35% 12%, hsla(349, 79%, 79%, 1) 0px, transparent 50%),
+        radial-gradient(at 56% 12%, hsla(153, 81%, 78%, 1) 0px, transparent 50%);
+    transition: 1s ease-in;
+    font-weight: bolder;
+}
+
+.link-penting .card {
+    margin: .5rem auto 1rem;
+}
+
+.link-penting a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-penting a:hover {
+    color: salmon;
+    font-weight: bolder;
+    transition: 1s ease-out;
+}
+
+.link-penting .card .QR {
+    padding-top: 2.5rem;
+}
+
+.link-penting .card .QR-tulisan h5.card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dip p {
+    margin-top: 2rem;
+}
+
+.tulber2 {
+    background-color: #be95c4;
+    font-weight: bold;
+    height: 5rem;
+}
+
+p.noted {
+    padding-top: 4rem;
+    font-size: 18pt;
+}
+
+b.noted2 {
+    font-size: 13pt;
+    color: blue;
+}
+
+p.noted3 {
+    font-size: 18pt;
+}
+
+p.word {
+    margin: 10rem 0;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 20pt;
+}
+
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    /* Biar dia nempel di bawah liat pada css layouting di position*/
+    width: 100%;
+    /* Lebar */
+    height: 120px;
+    /* Tinggi */
+    background-color: #333;
+    padding-top: 30px;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+footer p .bintang {
+    color: yellow;
+}
+
+footer p span.foot {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

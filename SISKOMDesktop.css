@@ -103,6 +103,14 @@
     }
 
     /* pendataan */
+    .pendataan .backber {
+        height: 4rem;
+    }
+    
+    .pendataan .problem h3 {
+        margin-top: .9rem;
+    }
+
     #pendataan {
         scroll-margin-top: 15.4rem;
     }

@@ -4,7 +4,7 @@
         background-color: wheat;
         height: 4rem;
     }
-    
+
     .sub-judul h3 {
         margin: 15px 0;
         font-weight: bolder;
@@ -44,7 +44,7 @@
     .jaulah {
         margin-top: -2.2%;
     }
-    
+
     #jaulah {
         scroll-margin-top: 20rem;
     }
@@ -106,12 +106,17 @@
     .pendataan .backber {
         height: 4rem;
     }
-    
+
     .pendataan .problem h3 {
         margin-top: .9rem;
     }
 
     #pendataan {
         scroll-margin-top: 15.4rem;
+    }
+
+    /* footer */
+    footer {
+        height: 130px;
     }
 }

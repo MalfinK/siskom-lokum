@@ -12,10 +12,10 @@ body {
     min-height: 1500px;
     font-family: 'Shadows Into Light', cursive;
     font-size: 15pt;
-    background-color:#99a8ff;
+    background-color:#99b9ff;
     background-image:
-        radial-gradient(at 80% 16%, hsla(275,68%,68%,1) 0px, transparent 50%),
-        radial-gradient(at 79% 30%, hsla(132,90%,73%,1) 0px, transparent 50%);
+        radial-gradient(at 91% 92%, hsla(122,79%,66%,1) 0px, transparent 50%),
+        radial-gradient(at 66% 4%, hsla(172,88%,73%,1) 0px, transparent 50%);
 }
 
 hr {

@@ -12,15 +12,10 @@ body {
     min-height: 1500px;
     font-family: 'Shadows Into Light', cursive;
     font-size: 15pt;
-    background-color: #e699ff;
+    background-color:#99a8ff;
     background-image:
-        radial-gradient(at 5% 38%, hsla(66, 91%, 68%, 1) 0px, transparent 50%),
-        radial-gradient(at 17% 89%, hsla(111, 94%, 73%, 1) 0px, transparent 50%),
-        radial-gradient(at 59% 83%, hsla(54, 85%, 70%, 1) 0px, transparent 50%),
-        radial-gradient(at 23% 68%, hsla(235, 67%, 61%, 1) 0px, transparent 50%),
-        radial-gradient(at 22% 34%, hsla(223, 86%, 60%, 1) 0px, transparent 50%),
-        radial-gradient(at 7% 88%, hsla(183, 97%, 71%, 1) 0px, transparent 50%),
-        radial-gradient(at 1% 92%, hsla(111, 68%, 77%, 1) 0px, transparent 50%);
+        radial-gradient(at 80% 16%, hsla(275,68%,68%,1) 0px, transparent 50%),
+        radial-gradient(at 79% 30%, hsla(132,90%,73%,1) 0px, transparent 50%);
 }
 
 hr {
